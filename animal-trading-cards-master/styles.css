@@ -1,1 +1,55 @@
 /* add your CSS here */
+h3{
+    padding: 10px;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+/* The labels of animal's list item */
+.list_item_name {
+    font-weight: bold;
+}
+
+ul {list-style: none;padding-left: 8px;padding-top: 0px;padding-bottom: 0px;}
+
+/* animal's interesting fact */
+.funfact {
+    font-style: italic;
+    padding-left: 8px;
+}
+
+/* animal's description */
+.description{
+    padding-left: 8px;
+}
+
+/* the image spacing*/
+.animalimage{
+    width: 300px;
+    padding: 0px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* The information box */
+.inbox{
+    width: 300px;
+    padding:0px;
+    padding-top: 0px;
+    margin: 10px;
+    border: 1px solid rgb(222, 206, 206);
+
+}
+
+/* The card box */
+.cardbox{
+    width: 320px;
+    border: 1px solid rgb(222, 206, 206);
+    box-shadow: 5px 5px 5px  rgb(141, 131, 131);
+    border-radius: 10px;
+}
